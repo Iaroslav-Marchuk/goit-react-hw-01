@@ -17,15 +17,15 @@ export default function Profile({
       </div>
       <ul className={css['profile-list']}>
         <li className={css['profile-item']}>
-          <span>Followers</span>
+          <span style={{ fontWeight: 'bold' }}>Followers</span>
           <span>{followers}</span>
         </li>
         <li className={css['profile-item']}>
-          <span>Views</span>
+          <span style={{ fontWeight: 'bold' }}>Views</span>
           <span>{views}</span>
         </li>
         <li className={css['profile-item']}>
-          <span>Likes</span>
+          <span style={{ fontWeight: 'bold' }}>Likes</span>
           <span>{likes}</span>
         </li>
       </ul>
